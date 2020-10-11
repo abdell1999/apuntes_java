@@ -8,7 +8,7 @@ public class Ejercicio01 {
 
 		int numero = 1;
 		
-		while (numero<=100) {
+		while (numero<=100) {	//Esto mismo podria haberse hecho con un bucle for pero con el while es mas simple solo le tengo que pasar una condicion
 			
 			System.out.println(numero);
 			numero++;

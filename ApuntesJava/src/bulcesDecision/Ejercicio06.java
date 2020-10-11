@@ -17,7 +17,7 @@ public class Ejercicio06 {
 		numeroFinal = entrada.nextInt();
 		entrada.close();
 		
-		while (numero<=numeroFinal) {
+		while (numero<=numeroFinal) {	//El numero al que queremos llegar lo pedimos por teclado :)
 			
 			System.out.println(numero);
 			numero ++;

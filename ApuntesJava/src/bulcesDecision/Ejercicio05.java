@@ -12,7 +12,8 @@ public class Ejercicio05 {
 		int numero = 1;
 		int impares = 0;
 
-		while (numero<=100) {
+		while (numero<=100) { //La variante respecto al de los pares es que iniciamos con el numero 1, y a partir de alli solo incrementar dos
+							//A parte de llevar un contador que incremento cada vez.
 			
 			System.out.println(numero);
 			numero += 2;

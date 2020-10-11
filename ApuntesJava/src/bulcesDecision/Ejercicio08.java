@@ -10,14 +10,14 @@ public class Ejercicio08 {
 		
 		char introducido = 0;
 		
-		while (!(introducido=='S')&&!(introducido=='N')) {
+		while (!(introducido=='S')&&!(introducido=='N')) {	//Mientras no se introduzca "S" o "N" se ejecutara indefinadamente
 			System.out.println("Introduce S o N");
 			introducido = entrada.next().charAt(0);
 			
 			
 			if (introducido>=97 && introducido<=122){
 			
-				introducido -=32; 
+				introducido -=32; 	//convertimos minusculas en mayusculas asi tambien captara la "s" y la "n"
 			
 			}
 			

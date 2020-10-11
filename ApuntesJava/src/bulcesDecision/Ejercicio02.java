@@ -10,7 +10,7 @@ public class Ejercicio02 {
 		
 	int numero = 100;
 		
-		while (numero>=1) {
+		while (numero>=1) {	//Lo mismo que el ejercicio anterior pero al reves. :)
 			
 			System.out.println(numero);
 			numero--;

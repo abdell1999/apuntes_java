@@ -9,7 +9,7 @@ public class Ejercicio03 {
 
 	int numero = 0;
 		
-		while (numero<=100) {
+		while (numero<=100) {	//La unica variante es que el incremento es de dos en dos
 			
 			System.out.println(numero);
 			numero += 2;
