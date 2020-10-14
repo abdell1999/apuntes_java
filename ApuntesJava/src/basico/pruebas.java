@@ -19,7 +19,7 @@ public class pruebas {
 		
 		
 		Scanner entrada = new Scanner(System.in);
-		
+		//mejorar la explicacion de final y static
 		//Solo se puede llamar a static porque el main lo es.
 		System.out.println(numero);
 		//Explicacion mas adelante en el modulo.
