@@ -1,6 +1,6 @@
 package basico;
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+import java.util.Scanner;	//Importante importar este paquete para que funcione el Scanner
+import javax.swing.JOptionPane;	//Importante importar este paquete para que funcione el JOptionPane
 
 public class EntradaDatos {
 
