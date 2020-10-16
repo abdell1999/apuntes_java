@@ -8,7 +8,8 @@ public class Finanzas {
 	
 	public Finanzas() {
 		
-		
+		euros = dolares*1.36;
+		dolares = euros/1.36;
 		
 		
 	}
@@ -22,7 +23,7 @@ public class Finanzas {
 		
 	}
 	
-	
+	/*
 	public double dolaresToEuros() {
 		
 		return dolares*1.36;
@@ -33,5 +34,6 @@ public class Finanzas {
 		return euros/1.36;
 	}
 	
+	*/
 
 }
