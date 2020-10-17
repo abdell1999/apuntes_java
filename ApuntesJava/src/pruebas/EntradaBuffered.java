@@ -6,9 +6,12 @@ import java.io.InputStreamReader;
 
 public class EntradaBuffered {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {	//Es necesario contemplar excepciones por eso creo que es una mierda
+		//mejor usar objetos de tipo Scanner
 		
-		BufferedReader bf = new BufferedReader (new InputStreamReader(System.in));	//creamos un objeto llamado bf
+		//BufferedReader bf = new BufferedReader (new InputStreamReader(System.in)); esto para simplificar podriamos haber hecho
+		InputStreamReader isr = new InputStreamReader(System.in);	//Creamos un objeto isr del tipo InputStreamReader
+		BufferedReader bf = new BufferedReader (isr);	//creamos un objeto llamado bf del tipo BufferedReader
 		//Al igual que JOptionPane almacena strings
 		
 		String nombre;
