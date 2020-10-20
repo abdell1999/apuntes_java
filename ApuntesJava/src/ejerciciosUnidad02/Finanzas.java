@@ -1,39 +1,54 @@
 package ejerciciosUnidad02;
+/*
+	
+	2. Clase Finanzas
+	Escribe una clase llamada Fnanzas que convierta dolares en euros y viceversa, mediante dos
+	métodos llamados dolaresToEuros() y eurosToDolares(). La clase contará con dos constructores.
+		• El constructor Finanzas() establecerá el tipo de cambio en 1,36.
+		• El constructor Finanzas(double) permitirá configurar el tipo de cambio al crear el objeto.
+	Como en el ejercicio anterior, también debes escribir un método main() que te permita comprobar
+	que el programa funciona correctamente a partir de datos introducidos por teclado (esto se dará por
+	supuesto en el resto de ejercicios del tema)
+  
+ */
+
+
+
+
 
 public class Finanzas {
 	
-	double euros;
-	double dolares;
+	private double CambioDolarEuro;
+
+	public Finanzas(){
+		CambioDolarEuro = 1.36;	
+	}
 	
-	
-	public Finanzas() {
-		
-		euros = dolares*1.36;
-		dolares = euros/1.36;
-		
-		
+	public Finanzas(double cambio){
+		CambioDolarEuro = cambio;	
 	}
 	
 	
-	public Finanzas(double euros, double dolares) {
+	public double dolaresToEuros(double dolares){
 		
-		this.euros = euros;
-		this.dolares = dolares;
-		
-		
+		double euros = 0;
+		euros = dolares * CambioDolarEuro;
+		return euros;
+				
+	}
+
+	public double eurosToDolares(double euros){
+	
+		double dolares = 0;
+		dolares = euros / CambioDolarEuro;
+		return dolares;
+			
 	}
 	
-	/*
-	public double dolaresToEuros() {
-		
-		return dolares*1.36;
+
+
+	public double getDolarEuro() {
+		return CambioDolarEuro;
 	}
-	
-	public double eurosToDolares() {
-		
-		return euros/1.36;
-	}
-	
-	*/
 
 }
