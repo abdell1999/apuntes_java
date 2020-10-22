@@ -6,7 +6,7 @@ Igual es un poco caótico pero yo me oriento bien en mi desorden.
 
 Hasta ahora se estan haciendo commits manuales, a traves de eclipse y VScode.
 
-##INDICE
+## INDICE
 -Actividades Unidad 1
 
 -Algoritmos en Pseudocodigo
