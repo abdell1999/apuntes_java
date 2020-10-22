@@ -2,6 +2,11 @@ package pruebas;
 import java.util.Scanner;
 
 
+/**
+ * @author abdell
+ *
+ */
+
 public class StringBinario {
 
 	public static void main(String[] args) {
@@ -15,7 +20,6 @@ public class StringBinario {
 		System.out.println();
 		entrada.close();
 		System.out.println(Integer.toBinaryString(numero));
-		
 		
 		
 	}

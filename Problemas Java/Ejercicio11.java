@@ -19,7 +19,7 @@ public class Ejercicio11{
 		
 		entrada.close();
 		
-		numeroS= String.valueOf(numero); //Tambien se puede usar Integer.toString();
+		numeroS= Integer.toString(numero); //Tambien se puede usar String.valueOf();
 		System.out.println("El numero introducido tiene "+numeroS.length()+" cifras");
 		
 		}
