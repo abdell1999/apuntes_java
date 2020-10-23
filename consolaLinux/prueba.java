@@ -8,7 +8,7 @@ public class prueba{
 		//Modificacion vscode windows
 		//Nuevamente pruebas desde linux
 		//Prueba de pull windows-linux
-
+		//Confirmado configuracion de commits windows-linux funcional
 
 	}
 
