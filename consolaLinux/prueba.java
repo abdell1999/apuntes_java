@@ -4,7 +4,7 @@ public class prueba{
 		System.out.println("Prueba de compilacion desde consola linux");
 
 		//Modificacion vscode linux
-
+		//Modificacion
 
 
 
