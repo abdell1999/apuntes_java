@@ -1,5 +1,3 @@
-package Ejercicio1;
-
 public class Termometro {
 	private double valor;
 	
